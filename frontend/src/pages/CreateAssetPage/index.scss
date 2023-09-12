@@ -1,0 +1,64 @@
+@use "../../scss/index" as *;
+
+._createAsset{
+    margin: 6rem 6rem 10px 6rem;
+
+    ._title{
+        position: relative;
+        color: #cf2338;
+        font-weight: bold;
+        margin-bottom: 30px;
+        
+    }
+    form{
+        width: 35rem;
+
+        ._label{
+            vertical-align: middle;
+        }
+        
+        ._rowCreateAsset{
+            margin: 37px 0;
+        }
+        ._text-error{
+            position: absolute;
+            margin-top: -1px;
+            padding-left: 1px;
+            color: red;
+        }
+        ._textarea{
+            resize: none;
+        }
+        ._inputError{
+            border-color: red;
+        }
+    }
+}
+
+
+// .__input-date {
+//     position: relative;
+//     width: 150px; height: 40px;
+//     color: white;
+// }
+
+// .__input-date:before {
+//     position: absolute;
+//     top: 6px; left: 3px;
+//     content: attr(data-date);
+//     display: inline-block;
+//     color: black;
+// }
+
+// .__input-date::-webkit-datetime-edit, .__input-date::-webkit-inner-spin-button, .__input-date::-webkit-clear-button {
+//     display: none;
+// }
+
+// .__input-date::-webkit-calendar-picker-indicator {
+//     position: absolute;
+//     top: 6px;
+//     right: 0;
+//     color: black;
+//     opacity: 1;
+//     font-size: 20px;
+// }
